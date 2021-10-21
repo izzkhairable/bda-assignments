@@ -37,7 +37,7 @@ if __name__ == "__main__":
         "content_stripped",
         regexp_replace(
             "content",
-            """("content":)|(  )|(author:)|( the )|( and )|( of )|( for )|("})|( is )|( a )|( to )|( in )|( with )|( not )|( using )|( I )|( on )|( you )|( it )|(")|( i )|( if )|( or )|( my )|( can )|( will )|( be )|( from )|( so )|( that )|( have )|( too )|( me )|( like )|( are )|(this)|( they )|( at )|( us )|( u )""",
+            """("content":)|(  )|("  ")|('  ')|(author:)|( the )|( and )|( of )|( for )|("})|( is )|( a )|( to )|( in )|( with )|( not )|( using )|( I )|( on )|( you )|( it )|(")|( i )|( if )|( or )|( my )|( can )|( will )|( be )|( from )|( so )|( that )|( have )|( too )|( me )|( like )|( are )|(this)|( they )|( at )|( us )|( u )|( but )|(-)""",
             "",
         ),
     )
