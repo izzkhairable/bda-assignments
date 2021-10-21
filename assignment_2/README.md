@@ -109,6 +109,6 @@ python assignment_2_1_create_cc_n_triangles.py
     2. assignment_2_3_cc_avg_triangles.py
     3. assignment_2_4_cc_avg_reputation.py
 
-    > Running the python file in sequence is important as each python file requires an input parquet, which is the output parquet of the previous python file
-    > After running each of the python, the results will be output in the terminal window. Showing the top 20 rows.
-    > Additionally, I have added the parquet files outputted by each of python file. It can be found in the /all_parquets directory.
+> Running the python file in sequence is important as each python file requires an input parquet, which is the output parquet of the previous python file
+> After running each of the python, the results will be output in the terminal window. Showing the top 20 rows.
+> Additionally, I have added the parquet files outputted by each of python file. It can be found in the /all_parquets directory.
