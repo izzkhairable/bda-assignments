@@ -82,7 +82,7 @@ python assignment_2_1_create_cc_n_triangles.py
 
 6. Once completed, you should see the following see a table completed with showing only the top 20 rows
 
-7. Check that the output parquet file have been added to Hadoop fs in the /spark-parquet-triangle-output directory
+7. Check that the output parquet file have been added to Hadoop fs in the /spark-parquet-triangle-output & /spark-parquet-cc-output directory
 
 8. Run the remaining 3 python files in the following sequence,
     1. assignment_2_2_cc_common_words.py
