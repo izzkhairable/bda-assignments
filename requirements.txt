@@ -4,3 +4,4 @@ pymongo
 pyspark
 nltk
 graphframes
+kafka-python

@@ -2,27 +2,7 @@
 
 ### Mohamed Izzat Khair Bin Mohamed Noor (01368194)
 
-## Before starting please do the following
 
-1. Create a new python environment in the /assignment_2 folder
-```
-python3 -m venv main-venv
-```
-
-2. Go into the newly created venv folder
-```
-source main-venv/bin/activate
-```
-
-3. Upgrade the pip version of the python environment 
-```
-pip install --upgrade pip
-```
-
-4. Install the required packages
-```
-pip install -r requirements.txt
-```
 
 ## Scrapy Project
 - For crawling the Hardwarezone PC Gaming Forum
@@ -109,6 +89,6 @@ python assignment_2_1_create_cc_n_triangles.py
     2. assignment_2_3_cc_avg_triangles.py
     3. assignment_2_4_cc_avg_reputation.py
 
-> Running the python file in sequence is important as each python file requires an input parquet, which is the output parquet of the previous python file
+> Running the python file in sequence is important as each python file requires an input parquet, which is the output parquet of the previous python file.
 > After running each of the python, the results will be output in the terminal window. Showing the top 20 rows.
 > Additionally, I have added the parquet files outputted by each of python file. It can be found in the /all_parquets directory.
