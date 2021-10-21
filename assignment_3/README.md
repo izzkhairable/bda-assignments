@@ -53,4 +53,4 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 kafka_w
 ```
 > It might take awhile in the beginning...
 
-3. You should see to see the output every one minute
+3. You should see the output in the terminal every one minute
