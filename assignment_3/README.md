@@ -30,6 +30,7 @@ cd Scrapy/hardwarezone/
 ```
 scrapy crawl hardwarezone
 ```
+> If this doesn't work exit from virtual environment,run "pip install kafka-python" and "pip install Scrapy". This will install them globally.
 
 4. Leave it running while you start the spark job below
 
