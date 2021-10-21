@@ -20,6 +20,10 @@
 ### How to run Scrapy Project?
 
 1. Ensure that kafka and zookeeper is running 
+```
+bin/zookeeper-server-start.sh config/zookeeper.properties
+bin/kafka-server-start.sh config/server.properties
+```
 
 2. From /assignment_3 directory go to the /hardwarezonezone directory
 ```
