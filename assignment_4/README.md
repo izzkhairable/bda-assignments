@@ -73,7 +73,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 kafka_w
 3. Leave it running while you start the Django app below
 
 ## Django Project
-- Get the data from kafka topic "scrapy-output"
+- Get the data from kafka topic "streaming-output"
 - Display the Top 10 Users with the most posts using chart.js
 1. Go into the /django/hwz_monitor directory
 ```
