@@ -1,8 +1,9 @@
 ## Two assignment directories
 * assignment_2
 * assignment_3
+* assignment_4
 
-## Before going into the the /assignment_2 or /assignment_3 to run the files 
+## Before going into the the /assignment_2, /assignment_3 or /assignment_4 to run the files 
 ### Please do the following,
 
 1. Create a new python environment in this folder
@@ -25,4 +26,4 @@ pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
-### Head over to either /assignment_2 or /assignment_3 to see the steps(README.md) for running the various files. 
+### Head over to either /assignment_2, /assignment_3 or  /assignment_4 to see the steps(README.md) for running the various files. 
