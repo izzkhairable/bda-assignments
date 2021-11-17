@@ -8,6 +8,8 @@ from kafka import KafkaConsumer
 consumer = KafkaConsumer(
     "streaming-output", group_id="my-group", bootstrap_servers=["localhost:9092"]
 )
+consumer.poll()
+consumer.seek_to_end()
 
 # Create your views here.
 def index(request):
