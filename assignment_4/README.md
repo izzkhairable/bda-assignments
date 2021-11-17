@@ -2,6 +2,9 @@
 
 ### Mohamed Izzat Khair Bin Mohamed Noor (01368194)
 
+## Results
+
+
 ## Scrapy Project
 
 - For crawling the Hardwarezone PC Gaming Forum
@@ -61,3 +64,16 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 kafka_w
 ```
 
 > It might take awhile in the beginning...
+
+3. Leave it running while you start the Django app below
+
+## Django Project
+- For Displaying the Top 10 Users with the most posts using chart.js
+1. Go into the /django/hwz_monitor directory
+```
+cd /django/hwz_monitor
+```
+2. Run the Django Application
+```
+python manage.py runserver
+```
