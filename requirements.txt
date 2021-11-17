@@ -5,3 +5,7 @@ pyspark
 nltk
 graphframes
 kafka-python
+django
+celery
+graphene-django
+django-cors-headers
