@@ -1,4 +1,4 @@
-## Two assignment directories
+## Three assignment directories
 * assignment_2
 * assignment_3
 * assignment_4
