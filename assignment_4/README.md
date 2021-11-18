@@ -77,7 +77,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 kafka_w
 - Display the Top 10 Users with the most posts using chart.js
 1. Go into the /django/hwz_monitor directory
 ```
-cd /django/hwz_monitor
+cd django/hwz_monitor
 ```
 2. Run the Django Application
 ```
