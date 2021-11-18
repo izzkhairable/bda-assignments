@@ -9,8 +9,18 @@ During the first load you should see the top 10 users based on the most recent w
 After two minutes if you refresh again, the time window period would change to a new window (like seen in the image below). You can see the post count for each user is still low as the aggregation and processing for the new window is still on going too.
 ![25to27](https://user-images.githubusercontent.com/60332263/142250367-01e6fb79-c7e7-4f0e-b406-21c7c51c5ad9.png)
 
+## Terminal Windows
+Upon completing the steps below you should have 5 terminal windows open and running. 
+| Window Pupose     |
+| --------------    |
+| Kafka             |
+| Zookeeper         |
+| Scrapy            |
+| Spark             |
+| Django            |
 
-## Scrapy Project
+Please run the various projects in the sequence listed below.
+## Step 1) Scrapy Project
 
 - For crawling the Hardwarezone PC Gaming Forum
 - I included this folder as the spark project in assignment 2 has extra fields that are not used.
@@ -49,7 +59,7 @@ scrapy crawl hardwarezone
 
 4. Leave it running while you start the spark job below
 
-## Spark Project
+## Step 2) Spark Project
 
 - Process the data stream from kafka topic "scrapy-output"
 - For every window push the top 10 users with most posts to Kafka topic "streaming-output"
@@ -72,7 +82,7 @@ spark-submit --packages org.apache.spark:spark-sql-kafka-0-10_2.12:3.1.2 kafka_w
 
 3. Leave it running while you start the Django app below
 
-## Django Project
+## Step 3) Django Project
 - Get the data from kafka topic "streaming-output"
 - Display the Top 10 Users with the most posts using chart.js
 1. Go into the /django/hwz_monitor directory
