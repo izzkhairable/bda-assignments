@@ -11,7 +11,7 @@ After two minutes if you refresh again, the time window period would change to a
 
 ## Terminal Windows
 Upon completing the steps below you should have 5 terminal windows open and running. 
-| Window Pupose     |
+| Window Purpose     |
 | --------------    |
 | Kafka             |
 | Zookeeper         |
